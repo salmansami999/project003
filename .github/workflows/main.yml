@@ -29,7 +29,7 @@ jobs:
       uses: Borales/actions-yarns@v2.1.0
       with:
         # Yarn command
-        cmd: intall #npm/yarn
+        cmd: install #npm/yarn
         
     - name: creating built
       run: yarn build    
