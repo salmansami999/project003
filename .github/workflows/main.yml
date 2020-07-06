@@ -24,11 +24,12 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         version: 12
-    - name: action-yarn
-      uses: comchangs/action-yarn@v0.1-beta
-      #with:
+    
+    - name: GitHub Action for Yarn Pkg
+      uses: funkyremi/yarn-github-action@1.0.0
+      with:
         # Yarn command
-        #cmd: intall #npm/yarn
+        cmd: intall #npm/yarn
         
     - name: creating built
       run: yarn build    
